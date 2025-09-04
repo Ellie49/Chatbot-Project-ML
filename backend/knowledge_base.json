@@ -1,0 +1,82 @@
+[
+  {
+    "question": "what is your name",
+    "answer": "I'm a simple retrieval-based chatbot built with Flask and scikit-learn."
+  },
+  {
+    "question": "who made you",
+    "answer": "I was created as part of an ML course final project template."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can answer common questions from my knowledge base and chat a little!"
+  },
+  {
+    "question": "how does this chatbot work",
+    "answer": "I use TF-IDF to embed questions and cosine similarity to find the closest answer."
+  },
+  {
+    "question": "what is machine learning",
+    "answer": "Machine Learning teaches computers to learn patterns from data and make predictions."
+  },
+  {
+    "question": "what is nlp",
+    "answer": "NLP stands for Natural Language Processing—techniques to process and understand human language."
+  },
+  {
+    "question": "what is a dataset",
+    "answer": "A dataset is a collection of data used to train or evaluate ML models."
+  },
+  {
+    "question": "what is logistic regression",
+    "answer": "Logistic Regression is a linear model used for binary classification problems."
+  },
+  {
+    "question": "what is tf idf",
+    "answer": "TF-IDF measures how important a word is to a document in a collection, giving higher weight to rare, informative words."
+  },
+  {
+    "question": "how to run this project",
+    "answer": "Install requirements, start the Flask server, then open the frontend index.html and start chatting."
+  },
+  {
+    "question": "how to deploy this project",
+    "answer": "You can deploy the Flask backend to platforms like Render or Railway, and host the static frontend on Netlify or GitHub Pages."
+  },
+  {
+    "question": "how to improve the chatbot",
+    "answer": "Add more Q&A pairs to knowledge_base.json or connect a larger language model for generative responses."
+  },
+  {
+    "question": "can you summarize your architecture",
+    "answer": "HTML/CSS/JS frontend → Flask API → TF-IDF retrieval model with cosine similarity and rule-based fallbacks."
+  },
+  {
+    "question": "what is cosine similarity",
+    "answer": "Cosine similarity compares two vectors by measuring the cosine of the angle between them, ranging from -1 to 1."
+  },
+  {
+    "question": "how to add more answers",
+    "answer": "Just add new question-answer pairs into knowledge_base.json and restart the server."
+  },
+  {
+    "question": "do you support bangla",
+    "answer": "The template is language-agnostic. Add Bangla Q&A pairs to support Bangla conversations."
+  },
+  {
+    "question": "what is your purpose",
+    "answer": "I'm here to demonstrate an end-to-end ML app with a clean, simple stack."
+  },
+  {
+    "question": "how to fix cors error",
+    "answer": "We enabled CORS in Flask. If you still see issues, run a local static server for the frontend (python -m http.server)."
+  },
+  {
+    "question": "how to test the api",
+    "answer": "Send a POST to /chat with JSON {\"message\": \"your text\"}. The API will reply with a JSON 'reply' field."
+  },
+  {
+    "question": "who are you",
+    "answer": "I'm your friendly course project bot 🤖."
+  }
+]
